@@ -1,0 +1,5 @@
+com\esprit\microservice\Controller\FournisseurRestApi.class
+com\esprit\microservice\Entity\Fournisseur.class
+com\esprit\microservice\Service\FournisseurService.class
+com\esprit\microservice\Repository\FournisseurRepository.class
+com\esprit\microservice\Application.class
