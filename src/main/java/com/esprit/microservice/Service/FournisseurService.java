@@ -33,6 +33,17 @@ public class FournisseurService {
 		}else 
 			return "candidat non supprimé";
 	}
+
+	public Iterable<Fournisseur> getAllFournisseur(){
+		return fournisseurRepository.findAll();
+	}
+
+	public Fournisseur getFournisseurById(int id) {
+		if(fournisseurRepository.findById(id).isPresent()) {
+			return fournisseurRepository.findById(id).get();
+		}else
+			return null;
+	}
 	
 
 }
