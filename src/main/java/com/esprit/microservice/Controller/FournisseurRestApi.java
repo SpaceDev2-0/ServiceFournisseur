@@ -10,6 +10,8 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @CrossOrigin("*")
+@RequestMapping("/fournisseur")
+
 public class FournisseurRestApi {
 	private String title="Hello , i'm the fournisseur Microservice";
 	

@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8089
-ADD /target/spring-boot-docker.jar spring-boot-docker.jar
-ENTRYPOINT ["java", "-jar", "spring-boot-docker.jar"]
+ADD /target/FournisseurService1.0-0.0.1-SNAPSHOT.jar FournisseurService.jar
+ENTRYPOINT ["java", "-jar", "FournisseurService.jar"]
